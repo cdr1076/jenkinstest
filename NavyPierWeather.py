@@ -14,7 +14,7 @@ def main():
     chiweather = chiweather()
 
     # display just the list (array) of space travelers
-    print(chiweather.get("name"))
+    print(chiweather.get("periods"))
     print(chiweather.get("icon"))
     print(chiweather.get("detailedForecast"))
     
