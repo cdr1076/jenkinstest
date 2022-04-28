@@ -15,6 +15,12 @@ def main():
     print(chiweather.get("properties").get("periods"))
     
     for subdata in chiweather.get("properties").get("periods"):
+        print(subdata.get("name"))
+        print(subdata.get("temperature"))
+        print(subdata.get("temperatureUnit"))
+        print(subdata.get("temperatureTrend"))
+        print(subdata.get("windSpeed"))
+        print(subdata.get("windDirection"))
         print(subdata.get("icon"))
         print(subdata.get("detailedForecast"))
     
