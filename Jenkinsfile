@@ -4,6 +4,7 @@ pipeline {
         stage('Cert Stage 1') {
             steps {
                 echo 'This is the first stage of my Certification Pipeline'
+                echo 'It will run when the Chicago Weather project runs'
             }
         }
         stage('Cert Stage 2') {
