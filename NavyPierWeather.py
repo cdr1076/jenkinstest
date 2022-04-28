@@ -12,7 +12,7 @@ def main():
     
     chiweather = chiweather()
    
-    print(chiweather.get("properties".get"periods"))
+    print(chiweather.get("properties").get("periods"))
     #print(chiweather.get("icon"))
     #print(chiweather.get("detailedForecast"))
     
