@@ -8,9 +8,9 @@ import requests
 def main():
 
     # make a request via requests library
-    chiweather = requests.get(NAVYPIERWEATHER)
+    chiweather = requests.get(NAVYPIERWEATHER).json
     
-    #chiweather = chiweather()
+    chiweather = chiweather()
    
     print(chiweather.get("properties").get("periods"))
     
