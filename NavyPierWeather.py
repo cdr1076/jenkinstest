@@ -13,8 +13,10 @@ def main():
     chiweather = chiweather()
    
     print(chiweather.get("properties").get("periods"))
-    #print(chiweather.get("icon"))
-    #print(chiweather.get("detailedForecast"))
+    
+    for subdata in chiweather.get("properties").get("periods"):
+        print(subdata.get("icon"))
+        print(subdata.get("detailedForecast"))
     
 if __name__ == "__main__":
     main()
