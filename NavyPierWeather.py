@@ -18,5 +18,5 @@ def main():
     print(chiweather("icon"))
     print(chiweather("detailedForecast"))
     
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
