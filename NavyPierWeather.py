@@ -10,10 +10,9 @@ def main():
     # make a request via requests library
     chiweather = requests.get(NAVYPIERWEATHER)
     
-    # remove the json attached to the 200 response
-    # chiweather = chiweather()
+       chiweather = chiweather()
 
-    # display just the list (array) of space travelers
+    
     print(chiweather.get("periods"))
     print(chiweather.get("icon"))
     print(chiweather.get("detailedForecast"))
