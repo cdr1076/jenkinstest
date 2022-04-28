@@ -11,7 +11,7 @@ def main():
     chiweather = requests.get(NAVYPIERWEATHER)
     
     # remove the json attached to the 200 response
-    chiweather = chiweather()
+    # chiweather = chiweather()
 
     # display just the list (array) of space travelers
     print(chiweather.get("periods"))
